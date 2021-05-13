@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Document</title>
+    <link rel="stylesheet" href="surveyForm.css">
+</head>
+
+<body>
+    <div id="body">
+        <p>masai school Survey Form</p>
+        <p id="sub"><i>Thank you for taking the time to help us improve the platform.</i></p>
+        <div id="form">
+            <form>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" placeholder="Enter your name" name="name" id="name">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" placeholder="Enter your email" name="email" id="email">
+                <br>
+                <label for="age">Age<sup>(optional)</sup></label>
+                <br>
+                <input type="number" placeholder="Age" name="age" id="age">
+                <br>
+                <label for="current-role">Which option best describes your current role?</label>
+                <br>
+                <select>
+                    <option value="student">Student</option>
+                    <option value="job">Full time job</option>
+                    <option value="learner">Full time learner</option>
+                    <option value="not-saying">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="recommendation">Would you recommend Masai School to a friedn?</label>
+                <br>
+                <input type="radio" id="definitely" name="recommendation" value="definitely">
+                <p style="display: inline;">Definitely</p>
+                <br>
+                <input type="radio" id="maybe" name="recommendation" value="maybe">
+                <p style="display: inline;">Maybe</p>
+                <br>
+                <input type="radio" id="not-sure" name="recommendation" value="not-sure">
+                <p style="display: inline;">Not sure</p>
+                <br>
+                <label for="fav-feature">What is your favourite feature of this platform?</label>
+                <br>
+                <select>
+                    <option value="challanges">Challanges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select>
+                <br>
+                <label for="suggestions">What would you like to see improved? (Check all that apply)</label>
+                <br>
+                <input type="checkbox">
+                <label for="frontend-projects">Front-end Projects</label>
+                <br>
+                <input type="checkbox">
+                <label for="backend-projects">Back-end Projects</label>
+                <br>
+                <input type="checkbox">
+                <label for="data-visualization">Data Visualization</label>
+                <br>
+                <input type="checkbox">
+                <label for="challanges">Challanges</label>
+                <br>
+                <input type="checkbox">
+                <label for="open-source">Open source Community</label>
+                <br>
+                <input type="checkbox">
+                <label for="gitter">Gitter-help rooms</label>
+                <br>
+                <input type="checkbox">
+                <label for="videos">Videos</label>
+                <br>
+                <input type="checkbox">
+                <label for="city-meetups">City Meetups</label>
+                <br>
+                <input type="checkbox">
+                <label for="wiki">Wiki</label>
+                <br>
+                <input type="checkbox">
+                <label for="forum">Forum</label>
+                <br>
+                <input type="checkbox">
+                <label for="additional-courses">Additional Courses</label>
+                <br>
+                <label for="comments">Any comments or suggestions?</label>
+                <br>
+                <textarea placeholder="Write your comment here..."></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
